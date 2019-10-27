@@ -35,4 +35,4 @@ function exerciseDog(dogName, dogBreed){
         resultsArr.push(routine[i](dogName,dogBreed))
     }
     return resultsArr //needed to add return as it returns undefined by default.  ALWAYS SPECIFY IN JS.
-}
+} //isn't resultsArr implicitly returned though?
